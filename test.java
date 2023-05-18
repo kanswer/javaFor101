@@ -26,6 +26,6 @@ public class test {
                 answer += 1;
             }
         }
-        return answer+1;
+        return answer;
     }
 }
