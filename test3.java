@@ -9,4 +9,7 @@ class t1{
     int a(int[] b){
         return b[0];
     }
+    int c(int c){
+        return c;
+    }
 }
