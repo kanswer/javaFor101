@@ -1,6 +1,14 @@
-public class test3{
-    public static void main(String[] args) {
-        int[] nums = new int[]{3,1,1};
+/*
+ * @lc app=leetcode.cn id=154 lang=java
+ *
+ * [154] 寻找旋转排序数组中的最小值 II
+ * 二分法找正序
+ * mid
+ */
+
+// @lc code=start
+class Solution {
+    public int findMin(int[] nums) {
         int l=0, r=nums.length-1, mid=0;
         while(l < r){
             mid = l + (r - l) / 2;
@@ -20,6 +28,8 @@ public class test3{
                 r = mid;
             }
         }
-        System.out.println(nums[l]);
+        return nums[l];
     }
 }
+// @lc code=end
+
