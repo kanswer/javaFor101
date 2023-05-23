@@ -20,6 +20,6 @@ public class test3{
                 r = mid;
             }
         }
-        System.out.println(nums[l]);
+        System.out.println(nums[l]+1);
     }
 }
